@@ -11,24 +11,36 @@
 </head>
 
 <body>
+<video autoplay muted loop id="myVideo">
+  <source src="./images/Sparks from a bonfire.mp4" type="video/mp4">
+</video>
 <div class="container">
   <div class="card">
-    <h1>My name is Rebecca</h1>
-    <img src="./images/profile pic.jpeg" width="150px" alt="Rebecca's profile pic">
-    <p>I love travel, food and money. I attended Le Wagon to learn code to be an entrepreneur and meet creative people.</p>
-    <a href="#" class="button"><em>Discover Le Wagon</em></a>
+    <h1>Welcome to My Profile</h1>
+    <img src="./images/profile pic.jpeg" id="profilepic" width="150px" alt="Rebecca's profile pic">
+    <h2 id="name">Rebecca Cheung</h2>
+  </div>
+
+  <div class="card">
+    <p>I love to travel. Here are some of my favourite places!</p>
+    <ul>
+      <li>
+        <img src="./images/los angeles.jpeg" class="travelpic" width="200px" height="150px" alt="Los Angeles pic">
+        <a href="https://en.wikipedia.org/wiki/Los_Angeles" class="button"><em>Discover Los Angeles</em></a>
+      </li>
+      <li>
+        <img src="./images/guangzhou.jpeg" class="travelpic" width="200px" height="150px" alt="Guangzhou pic">
+        <a href="https://en.wikipedia.org/wiki/Guangzhou" class="button"><em>Discover Guangzhou</em></a>
+      </li>
+    </ul>
+
   </div>
 
   <div class="card">
     <h2>Follow Me</h2>
       <ul>
         <li>
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter-square" target="_blank"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="social-icon">
+          <a href="https://www.linkedin.com/in/rebeccalych/" class="social-icon">
             <i class="fab fa-linkedin" target="_blank"></i>
           </a>
         </li>
